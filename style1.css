@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height:34px;
+    color:#777;
+    
+}
+
+
+.container{
+    width: 100%;
+    max-width:960px;
+    margin:0 auto;
+    clear:both;
+}
+
+
+#boss {
+position: fixed;
+z-index: 99;
+color: #fff;
+width: 100%;
+margin: 0 0 30px;
+overflow:auto;
+background: #fff;
+border-bottom: 2px solid #ccc;
+}
+
+
+#logo{
+    
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+background-color: #4aaaa5;
+}
+
+
+nav{
+    float: right;
+margin: 25px;
+}
+
+
+ navitem {
+     display: inline-block;
+     padding-left: 15px;
+     margin-left: 15px;
+     line-height:18px;
+     border-left: 1px solid #efefef;
+
+ }
+ 
+  
+h1{
+    padding-bottom:20px;
+    font-size:30px;
+    line-height:49px;
+    border-bottom: 3px solid #ddd
+}
+
+h2,h3{
+    font-size: 22px;
+}
+  
+h1,h2,h3,p{
+    margin:20px
+}
+  
+
+h1,h2,h3{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:700;
+    color:#4aaaa5;
+}
+
+
+
+  
+.one{
+
+    position: relative;
+    float: left;
+    widows: 274px;
+    margin:20px 0 25px;
+    overflow: auto; 
+}
+   
+.one hangman{
+
+    position: absolute;
+    bottom:20px;
+    width:100%;
+    padding:15px;
+    margin-bottom:0;
+    font-weight:200;
+    line-height:200px;
+    color:#fff;
+    text-align:center;
+    background:#4aaaa5;
+    border-bottom:0;
+
+}
+
+.one rpg game{
+
+    color:blue;
+}
+
+
+.li{
+
+    display: inline-block;
+    padding:15px;
+    margin-left:15px;
+    line-height:18px;
+    border-left:1px solid #efefef;
+}
+
+footer{
+
+    padding:30px 0;
+    clear:both;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+footer, .push{
+    height:100px;
+}
+
+.row{
+
+    float:left;
+    width:100%;
+    padding:30px;
+    margin:0 0 40px;
+    background: #fff;
+    border:1px solid #ddd
+
+}
+
+main{
+    padding: 130px;
+}
+
+.one img{
+
+    width:100%;
+    border: 0 none;
+    opacity:0.8;
+    float: center;
+
+}
+
+.wrapper{
+
+    height:auto!important;
+    height:100%;
+    min-height:100%;
+    margin: 0 auto -100px;
+
+}
+
+html,body{
+    height:100%;
+
+}
